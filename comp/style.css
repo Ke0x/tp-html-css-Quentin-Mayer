@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+.centercarou {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.centercontact {
+
+    justify-content: center;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.centertext {
+    text-align: center;
+    color: brown;
+    padding-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+.centerbutton {
+
+display: flex;
+justify-content: center;
+align-self: center;
+padding: 10px;
+color: brown;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: brown;
+    border-color: rgb(255, 0, 0);
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 0, 0);
+    border-color: brown;
+}
+
+.btn.btn-primary.btn-lg:active {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+label {
+    color: brown;
+}
