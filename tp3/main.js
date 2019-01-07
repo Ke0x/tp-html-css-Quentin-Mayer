@@ -18,3 +18,4 @@ var myBarChart = new Chart(ctx, {
     // Configuration options go here
     options: {}
 });
+
