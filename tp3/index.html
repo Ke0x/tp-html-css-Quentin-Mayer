@@ -129,8 +129,8 @@
                         <td>Administration</td>
                         <td>(171) 555-2222</td>
                         <td>
-							<button type="button" class="btn btn-info add-new" data-toggle="modal" data-target="#exampleModal"><i class="material-icons">&#xE03B;</i> </button>
-                            <button type="button" class="btn btn-info add-new" data-toggle="modal" data-target="#exampleModal"><i class="material-icons">&#xE254;</i></button>
+							              <button type="button" class="btn btn-info add-new" data-toggle="modal" data-target="#modifier"><i class="material-icons">&#xE03B;</i> </button>
+                            <button type="button" class="btn btn-info add-new" data-toggle="modal" data-target="#supprimer"><i class="material-icons">&#xE254;</i></button>
                         </td>
                     </tr>
                     <tr>
@@ -139,8 +139,8 @@
                         <td>(313) 555-5735</td>
                         <td>
 							<a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-                            <a class="edit" title="Edit" data-toggle="modal" data-target="#modifier"><i class="material-icons">&#xE254;</i></a>
-                            <a class="delete" title="Delete" data-toggle="modal" data-target="#delete"><i class="material-icons">&#xE872;</i></a>
+                            <button type="button" class="btn btn-info add-new" data-toggle="modal" data-target="#modifier"><i class="material-icons">&#xE03B;</i> </button>
+                            <button type="button" class="btn btn-info add-new" data-toggle="modal" data-target="#supprimer"><i class="material-icons">&#xE254;</i></button>
                         </td>
                     </tr>
                     <tr>
@@ -149,8 +149,8 @@
                         <td>(503) 555-9931</td>
                         <td>
 							<a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-                            <a class="edit" title="Edit" data-toggle="modal" data-target="#modifier"><i class="material-icons">&#xE254;</i></a>
-                            <a class="delete" title="Delete" data-toggle="modal" data-target="#delete"><i class="material-icons">&#xE872;</i></a>
+                            <button type="button" class="btn btn-info add-new" data-toggle="modal" data-target="#modifier"><i class="material-icons">&#xE03B;</i> </button>
+                            <button type="button" class="btn btn-info add-new" data-toggle="modal" data-target="#supprimer"><i class="material-icons">&#xE254;</i></button>
                         </td>
                     </tr>      
                 </tbody>
@@ -179,7 +179,7 @@
     </div>
   </div>
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="modifier" aria-hidden="true">
+  <div class="modal fade" id="modifier" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -193,13 +193,13 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
-          <button type="button" class="btn btn-primary">Ajouter</button>
+          <button type="button" class="btn btn-primary">Modifier</button>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
+  <div class="modal fade" id="supprimer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -213,7 +213,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
-          <button type="button" class="btn btn-primary">Ajouter</button>
+          <button type="button" class="btn btn-primary">Supprimer</button>
         </div>
       </div>
     </div>
