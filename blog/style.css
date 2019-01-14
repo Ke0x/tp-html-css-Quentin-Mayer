@@ -1,0 +1,32 @@
+.categories {
+    margin-top: 50px;
+    width: 20%;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    float: left;
+
+}
+
+.articles {
+    float: left;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 80%;
+}
+
+.container {
+
+    width: 100%;
+
+}
+
+.divarticles {
+
+    margin: auto;
+
+}
+
+img {
+    width: 100%;
+}
